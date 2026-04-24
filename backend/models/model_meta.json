@@ -1,0 +1,43 @@
+{
+  "best_model": "AntiOverfit-LR (n=600, C=0.10, 25/35/25/15 mix)",
+  "accuracy": 0.7132,
+  "f1_score": 0.7129,
+  "train_accuracy": 0.7561,
+  "train_f1": 0.7563,
+  "overfit_gap": 0.0429,
+  "cv_mean": 0.7329,
+  "cv_std": 0.0097,
+  "classes": [
+    "AI Engineering",
+    "Architecture",
+    "Business",
+    "Data Engineering",
+    "Data Science",
+    "Governance",
+    "Infrastructure",
+    "ML Operations",
+    "Product",
+    "Research",
+    "Robotics",
+    "Security"
+  ],
+  "n_train": 5760,
+  "n_test": 1440,
+  "total_samples": 7200,
+  "data_source": "Synthetic anti-overfit (25/35/25/15 difficulty mix)",
+  "per_class_f1": {
+    "AI Engineering": 0.7167,
+    "Architecture": 0.6984,
+    "Business": 0.7287,
+    "Data Engineering": 0.6575,
+    "Data Science": 0.7345,
+    "Governance": 0.7176,
+    "Infrastructure": 0.7232,
+    "ML Operations": 0.7184,
+    "Product": 0.7333,
+    "Research": 0.721,
+    "Robotics": 0.7386,
+    "Security": 0.6667
+  },
+  "note": "Train~75%, Test~73%, Gap<3% \u2014 honest generalisation. 100% = overfitting."
+}

@@ -1,0 +1,77 @@
+E:\projects\careerai_pro_COMPLETE (1).1\.venv\lib\site-packages\sklearn\base.py:442: InconsistentVersionWarning: Trying to unpickle estimator TfidfTransformer from version 1.8.0 when using version 1.7.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+E:\projects\careerai_pro_COMPLETE (1).1\.venv\lib\site-packages\sklearn\base.py:442: InconsistentVersionWarning: Trying to unpickle estimator TfidfVectorizer from version 1.8.0 when using version 1.7.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+E:\projects\careerai_pro_COMPLETE (1).1\.venv\lib\site-packages\sklearn\base.py:442: InconsistentVersionWarning: Trying to unpickle estimator LogisticRegression from version 1.8.0 when using version 1.7.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+E:\projects\careerai_pro_COMPLETE (1).1\.venv\lib\site-packages\sklearn\base.py:442: InconsistentVersionWarning: Trying to unpickle estimator Pipeline from version 1.8.0 when using version 1.7.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+E:\projects\careerai_pro_COMPLETE (1).1\.venv\lib\site-packages\sklearn\base.py:442: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.8.0 when using version 1.7.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.110:8000
+Press CTRL+C to quit
+127.0.0.1 - - [01/Apr/2026 19:10:52] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:12:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:12:31] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:12:32] "GET /api/market/overview HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:12:33] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:12:44] "GET /api/rapidapi/jobs?source=all&limit=100 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:12:59] "GET /api/live/jobs?limit=100 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:13:03] "GET /api/live/jobs?limit=100 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:13:06] "GET /api/rapidapi/jobs?source=all&limit=100 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:13:26] "GET /api/rapidapi/jobs?source=indeed12&limit=100 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:13:28] "GET /api/rapidapi/jobs?source=glassdoor&limit=100 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:13:29] "GET /api/live/jobs?limit=100 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:13:32] "GET /api/rapidapi/jobs?source=glassdoor&limit=100 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:13:33] "GET /api/rapidapi/jobs?source=all&limit=100 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:13:39] "GET /api/rapidapi/jobs?source=jsearch&limit=100 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:55:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:55:46] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:55:46] "GET /api/market/overview HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:55:46] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:58:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:58:54] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:58:55] "GET /api/market/overview HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:58:55] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:58:56] "GET /api/jobs/search?page=1&per_page=20 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:58:58] "GET /api/jobs/search?page=1&per_page=20&sources=jsearch HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:59:00] "GET /api/jobs/search?page=1&per_page=20&sources=activejobs HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:59:01] "GET /api/jobs/search?page=1&per_page=20&sources=linkedin HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 19:59:02] "GET /api/jobs/search?page=1&per_page=20&sources=activejobs HTTP/1.1" 304 -
+127.0.0.1 - - [01/Apr/2026 19:59:04] "GET /api/jobs/search?page=1&per_page=20 HTTP/1.1" 304 -
+127.0.0.1 - - [01/Apr/2026 19:59:07] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 20:01:56] "GET /api/jobs/search?page=1&per_page=20&sources=jsearch HTTP/1.1" 304 -
+127.0.0.1 - - [01/Apr/2026 20:01:58] "GET /api/jobs/search?page=1&per_page=20&sources=jsearch HTTP/1.1" 304 -
+127.0.0.1 - - [01/Apr/2026 20:02:00] "GET /api/jobs/search?page=1&per_page=20&sources=jsearch HTTP/1.1" 304 -
+127.0.0.1 - - [01/Apr/2026 20:02:00] "GET /api/jobs/search?page=1&per_page=20 HTTP/1.1" 304 -
+127.0.0.1 - - [01/Apr/2026 20:02:09] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [01/Apr/2026 20:02:10] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 20:02:10] "GET /api/market/overview HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 20:02:10] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [01/Apr/2026 20:02:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 20:02:13] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 20:02:13] "GET /api/market/overview HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 20:02:13] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 20:02:14] "GET /api/jobs/search?page=1&per_page=20 HTTP/1.1" 304 -
+127.0.0.1 - - [01/Apr/2026 20:02:15] "GET /api/jobs/search?page=1&per_page=20 HTTP/1.1" 304 -
+127.0.0.1 - - [01/Apr/2026 20:02:16] "GET /api/jobs/search?page=1&per_page=20&sources=jsearch HTTP/1.1" 304 -
+127.0.0.1 - - [01/Apr/2026 20:02:17] "GET /api/jobs/search?page=1&per_page=20&sources=activejobs HTTP/1.1" 304 -
+127.0.0.1 - - [01/Apr/2026 20:02:18] "GET /api/jobs/search?page=1&per_page=20&sources=linkedin HTTP/1.1" 304 -
+127.0.0.1 - - [01/Apr/2026 20:02:19] "GET /api/jobs/search?page=1&per_page=20&sources=linkedin HTTP/1.1" 304 -
+127.0.0.1 - - [01/Apr/2026 20:02:20] "GET /api/jobs/search?page=1&per_page=20&sources=activejobs HTTP/1.1" 304 -
+127.0.0.1 - - [01/Apr/2026 20:10:41] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 20:10:49] "GET /api/jobs/search?q=engineer&page=1&per_page=5 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 20:15:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 20:15:27] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 20:15:28] "GET /api/market/overview HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 20:15:28] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 20:15:30] "GET /api/jobs/search?page=1&per_page=20 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Apr/2026 20:15:49] "GET /api/jobs/search?page=1&per_page=20&sources=jsearch HTTP/1.1" 200 -

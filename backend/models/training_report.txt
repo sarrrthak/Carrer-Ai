@@ -1,0 +1,26 @@
+CareerAI Pro — Training Report
+============================================================
+Model       : AntiOverfit-LR (n=600, C=0.10, 25/35/25/15 mix)
+Train Acc   : 75.61%
+Test  Acc   : 71.32%  (honest)
+Overfit Gap : 0.0429  (good < 0.08)
+CV-5 Acc    : 0.7329 +/- 0.0097
+
+                  precision    recall  f1-score   support
+
+  AI Engineering       0.72      0.72      0.72       120
+    Architecture       0.67      0.73      0.70       120
+        Business       0.68      0.78      0.73       120
+Data Engineering       0.73      0.60      0.66       120
+    Data Science       0.78      0.69      0.73       120
+      Governance       0.66      0.78      0.72       120
+  Infrastructure       0.78      0.68      0.72       120
+   ML Operations       0.70      0.73      0.72       120
+         Product       0.73      0.73      0.73       120
+        Research       0.74      0.70      0.72       120
+        Robotics       0.74      0.74      0.74       120
+        Security       0.67      0.67      0.67       120
+
+        accuracy                           0.71      1440
+       macro avg       0.72      0.71      0.71      1440
+    weighted avg       0.72      0.71      0.71      1440

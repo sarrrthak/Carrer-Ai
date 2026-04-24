@@ -1,0 +1,14 @@
+  ✓ API Connectors loaded: ['jsearch', 'indeed', 'glassdoor', 'indeed12']
+  ✓ ML model loaded: AntiOverfit-LR (n=600, C=0.10, 25/35/25/15 mix)  accuracy=0.7132
+
+========================================================
+  CareerAI Pro — Backend v2.0
+========================================================
+  ML Model  : ✓ Loaded — AntiOverfit-LR (n=600, C=0.10, 25/35/25/15 mix)
+  Frontend  : http://localhost:8000
+  Health    : http://localhost:8000/api/health
+  Live Jobs : http://localhost:8000/api/live/jobs
+========================================================
+
+ * Serving Flask app 'server'
+ * Debug mode: off
